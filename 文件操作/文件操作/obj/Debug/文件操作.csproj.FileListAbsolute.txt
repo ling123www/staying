@@ -1,0 +1,11 @@
+D:\vs console\winform\文件操作\文件操作\bin\Debug\文件操作.exe.config
+D:\vs console\winform\文件操作\文件操作\bin\Debug\文件操作.exe
+D:\vs console\winform\文件操作\文件操作\bin\Debug\文件操作.pdb
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.csproj.AssemblyReference.cache
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.csproj.SuggestedBindingRedirects.cache
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.FrmMain.resources
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.Properties.Resources.resources
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.csproj.GenerateResource.cache
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.csproj.CoreCompileInputs.cache
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.exe
+D:\vs console\winform\文件操作\文件操作\obj\Debug\文件操作.pdb
