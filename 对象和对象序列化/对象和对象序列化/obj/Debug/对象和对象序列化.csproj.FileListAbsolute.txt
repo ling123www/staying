@@ -1,0 +1,11 @@
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\bin\Debug\对象和对象序列化.exe.config
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\bin\Debug\对象和对象序列化.exe
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\bin\Debug\对象和对象序列化.pdb
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.csproj.AssemblyReference.cache
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.csproj.SuggestedBindingRedirects.cache
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.FormFile.resources
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.Properties.Resources.resources
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.csproj.GenerateResource.cache
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.csproj.CoreCompileInputs.cache
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.exe
+D:\vs console\winform\对象和对象序列化\对象和对象序列化\obj\Debug\对象和对象序列化.pdb
