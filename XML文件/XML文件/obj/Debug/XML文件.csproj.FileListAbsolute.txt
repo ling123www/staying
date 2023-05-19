@@ -1,0 +1,11 @@
+D:\vs console\winform\XML文件\XML文件\bin\Debug\XML文件.exe.config
+D:\vs console\winform\XML文件\XML文件\bin\Debug\XML文件.exe
+D:\vs console\winform\XML文件\XML文件\bin\Debug\XML文件.pdb
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.csproj.AssemblyReference.cache
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.csproj.SuggestedBindingRedirects.cache
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.FrmReadXML.resources
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.Properties.Resources.resources
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.csproj.GenerateResource.cache
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.csproj.CoreCompileInputs.cache
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.exe
+D:\vs console\winform\XML文件\XML文件\obj\Debug\XML文件.pdb

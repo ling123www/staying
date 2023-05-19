@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Students>
+	<Student>
+		<StuName>王奥</StuName>
+		<StuAge>21</StuAge>
+		<Gander>男</Gander>
+		<StuClass>计算机2班</StuClass>
+	</Student>
+	<Student>
+		<StuName>汤玲大王</StuName>
+		<StuAge>22</StuAge>
+		<Gander>女</Gander>
+		<StuClass>跟帅哥一个班</StuClass>
+	</Student>
+	<Student>
+		<StuName>李洪阳</StuName>
+		<StuAge>22</StuAge>
+		<Gander>男</Gander>
+		<StuClass>计算机3班</StuClass>
+	</Student>
+	<Student>
+		<StuName>陈凯</StuName>
+		<StuAge>20</StuAge>
+		<Gander>男</Gander>
+		<StuClass>计算机4班</StuClass>
+	</Student>
+	<Student>
+		<StuName>李博</StuName>
+		<StuAge>23</StuAge>
+		<Gander>男</Gander>
+		<StuClass>计算机5班</StuClass>
+	</Student>
+<DateInfo>
+	<Version vNo ="1.2" pTime="2023-05-19">数据版本信息</Version>>
+</DateInfo>
+</Students>
+
+		
