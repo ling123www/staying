@@ -1,0 +1,8 @@
+D:\vs console\winform\DateReader使用\DateReader使用\bin\Debug\DateReader使用.exe.config
+D:\vs console\winform\DateReader使用\DateReader使用\bin\Debug\DateReader使用.exe
+D:\vs console\winform\DateReader使用\DateReader使用\bin\Debug\DateReader使用.pdb
+D:\vs console\winform\DateReader使用\DateReader使用\obj\Debug\DateReader使用.csproj.AssemblyReference.cache
+D:\vs console\winform\DateReader使用\DateReader使用\obj\Debug\DateReader使用.csproj.SuggestedBindingRedirects.cache
+D:\vs console\winform\DateReader使用\DateReader使用\obj\Debug\DateReader使用.csproj.CoreCompileInputs.cache
+D:\vs console\winform\DateReader使用\DateReader使用\obj\Debug\DateReader使用.exe
+D:\vs console\winform\DateReader使用\DateReader使用\obj\Debug\DateReader使用.pdb
