@@ -63,5 +63,12 @@ namespace StudentManagerPro
             frmUserLogin.ShowDialog();//展示
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();//隐藏页面
+            FrmUserLogin frmUserLogin = new FrmUserLogin();//引用登录页面类
+            frmUserLogin.ShowDialog();//展示
+        }
     }
 }

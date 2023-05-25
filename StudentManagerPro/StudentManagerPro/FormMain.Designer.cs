@@ -86,7 +86,7 @@
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1452, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1452, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,26 +97,26 @@
             this.toolStripSeparator1,
             this.退出系统ToolStripMenuItem});
             this.系统ToolStripMenuItem.Name = "系统ToolStripMenuItem";
-            this.系统ToolStripMenuItem.Size = new System.Drawing.Size(72, 26);
+            this.系统ToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.系统ToolStripMenuItem.Text = "系统(&S)";
             // 
             // tsmi_PwdModify
             // 
             this.tsmi_PwdModify.Image = ((System.Drawing.Image)(resources.GetObject("tsmi_PwdModify.Image")));
             this.tsmi_PwdModify.Name = "tsmi_PwdModify";
-            this.tsmi_PwdModify.Size = new System.Drawing.Size(224, 26);
+            this.tsmi_PwdModify.Size = new System.Drawing.Size(177, 26);
             this.tsmi_PwdModify.Text = "密码修改(&M)";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(174, 6);
             // 
             // 退出系统ToolStripMenuItem
             // 
             this.退出系统ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("退出系统ToolStripMenuItem.Image")));
             this.退出系统ToolStripMenuItem.Name = "退出系统ToolStripMenuItem";
-            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.退出系统ToolStripMenuItem.Text = "退出系统";
             // 
             // 学员管理ToolStripMenuItem
@@ -127,7 +127,7 @@
             this.toolStripSeparator2,
             this.学员管理系统ToolStripMenuItem});
             this.学员管理ToolStripMenuItem.Name = "学员管理ToolStripMenuItem";
-            this.学员管理ToolStripMenuItem.Size = new System.Drawing.Size(108, 26);
+            this.学员管理ToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.学员管理ToolStripMenuItem.Text = "学生管理(&M)";
             // 
             // 添加学员AToolStripMenuItem
@@ -163,7 +163,7 @@
             this.toolStripSeparator3,
             this.成绩快速查询ToolStripMenuItem});
             this.成绩查询ToolStripMenuItem.Name = "成绩查询ToolStripMenuItem";
-            this.成绩查询ToolStripMenuItem.Size = new System.Drawing.Size(99, 26);
+            this.成绩查询ToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
             this.成绩查询ToolStripMenuItem.Text = "成绩查询(&J)";
             // 
             // 成绩查询与分析ToolStripMenuItem
@@ -191,7 +191,7 @@
             this.考勤打卡ToolStripMenuItem,
             this.考勤查询ToolStripMenuItem});
             this.考勤ToolStripMenuItem.Name = "考勤ToolStripMenuItem";
-            this.考勤ToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.考勤ToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.考勤ToolStripMenuItem.Text = "考勤管理(&A)";
             // 
             // 考勤打卡ToolStripMenuItem
@@ -216,7 +216,7 @@
             this.toolStripSeparator4,
             this.关于我们ToolStripMenuItem});
             this.帮助HToolStripMenuItem.Name = "帮助HToolStripMenuItem";
-            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.帮助HToolStripMenuItem.Text = "帮助(&H)";
             // 
             // 访问官网ToolStripMenuItem
@@ -274,7 +274,7 @@
             this.spContainer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.spContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.spContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.spContainer.Location = new System.Drawing.Point(0, 30);
+            this.spContainer.Location = new System.Drawing.Point(0, 28);
             this.spContainer.Name = "spContainer";
             // 
             // spContainer.Panel1
@@ -296,7 +296,7 @@
             this.spContainer.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("spContainer.Panel2.BackgroundImage")));
             this.spContainer.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.spContainer.Panel2.Controls.Add(this.label1);
-            this.spContainer.Size = new System.Drawing.Size(1452, 904);
+            this.spContainer.Size = new System.Drawing.Size(1452, 906);
             this.spContainer.SplitterDistance = 336;
             this.spContainer.TabIndex = 2;
             // 
@@ -316,6 +316,7 @@
             this.button8.Text = "退出系统";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // imageList1
             // 
