@@ -1,0 +1,14 @@
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\bin\Debug\StudentManagerPro.exe.config
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\bin\Debug\StudentManagerPro.exe
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\bin\Debug\StudentManagerPro.pdb
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.csproj.AssemblyReference.cache
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.csproj.SuggestedBindingRedirects.cache
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.Properties.Resources.resources
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.csproj.GenerateResource.cache
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.csproj.CoreCompileInputs.cache
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.exe
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.pdb
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.FrmUserLogin.resources
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.FrmMain.resources
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.FrmAddStudent.resources
+D:\vs console\winform\StudentManagerPro\StudentManagerPro\obj\Debug\StudentManagerPro.FrmStudentManager.resources
