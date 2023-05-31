@@ -30,20 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStudentManager));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.comboBoxClass = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnsetting = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textID = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
@@ -72,8 +72,8 @@
             // 
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.btnFind);
+            this.groupBox1.Controls.Add(this.comboBoxClass);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(75, 87);
             this.groupBox1.Name = "groupBox1";
@@ -135,28 +135,29 @@
             this.button1.Text = "姓名降序";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnFind
             // 
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
-            this.button5.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.ImageIndex = 17;
-            this.button5.ImageList = this.imageList1;
-            this.button5.Location = new System.Drawing.Point(419, 48);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(198, 37);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "查询按钮";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnFind.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFind.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
+            this.btnFind.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnFind.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFind.ImageIndex = 17;
+            this.btnFind.ImageList = this.imageList1;
+            this.btnFind.Location = new System.Drawing.Point(419, 48);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(198, 37);
+            this.btnFind.TabIndex = 9;
+            this.btnFind.Text = "查询按钮";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
-            // comboBox1
+            // comboBoxClass
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(107, 55);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(198, 23);
-            this.comboBox1.TabIndex = 8;
+            this.comboBoxClass.FormattingEnabled = true;
+            this.comboBoxClass.Location = new System.Drawing.Point(107, 55);
+            this.comboBoxClass.Name = "comboBoxClass";
+            this.comboBoxClass.Size = new System.Drawing.Size(198, 23);
+            this.comboBoxClass.TabIndex = 8;
             // 
             // label5
             // 
@@ -183,40 +184,40 @@
             this.btnClose.Text = "关闭窗口";
             this.btnClose.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnsetting
             // 
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
-            this.button3.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.ImageIndex = 4;
-            this.button3.ImageList = this.imageList1;
-            this.button3.Location = new System.Drawing.Point(1207, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(198, 37);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "修改学生";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnsetting.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnsetting.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
+            this.btnsetting.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnsetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnsetting.ImageIndex = 4;
+            this.btnsetting.ImageList = this.imageList1;
+            this.btnsetting.Location = new System.Drawing.Point(1207, 112);
+            this.btnsetting.Name = "btnsetting";
+            this.btnsetting.Size = new System.Drawing.Size(198, 37);
+            this.btnsetting.TabIndex = 9;
+            this.btnsetting.Text = "修改学生";
+            this.btnsetting.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnDel
             // 
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
-            this.button4.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button4.ForeColor = System.Drawing.Color.Red;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.ImageIndex = 9;
-            this.button4.ImageList = this.imageList1;
-            this.button4.Location = new System.Drawing.Point(1207, 197);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(198, 37);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "删除学生";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnDel.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnDel.FlatAppearance.CheckedBackColor = System.Drawing.Color.Black;
+            this.btnDel.Font = new System.Drawing.Font("仿宋", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnDel.ForeColor = System.Drawing.Color.Red;
+            this.btnDel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDel.ImageIndex = 9;
+            this.btnDel.ImageList = this.imageList1;
+            this.btnDel.Location = new System.Drawing.Point(1207, 197);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(198, 37);
+            this.btnDel.TabIndex = 9;
+            this.btnDel.Text = "删除学生";
+            this.btnDel.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.textID);
             this.groupBox2.Controls.Add(this.button8);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(75, 287);
@@ -226,12 +227,12 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "[按照学号查询]";
             // 
-            // textBox1
+            // textID
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(201, 25);
-            this.textBox1.TabIndex = 10;
+            this.textID.Location = new System.Drawing.Point(104, 56);
+            this.textID.Name = "textID";
+            this.textID.Size = new System.Drawing.Size(201, 25);
+            this.textID.TabIndex = 10;
             // 
             // button8
             // 
@@ -247,6 +248,7 @@
             this.button8.TabIndex = 9;
             this.button8.Text = "提交查询";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label1
             // 
@@ -277,14 +279,14 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.ColumnHeadersHeight = 30;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.StudentId,
@@ -303,6 +305,7 @@
             // 
             // StudentId
             // 
+            this.StudentId.DataPropertyName = "StudentID";
             this.StudentId.HeaderText = "学号";
             this.StudentId.MinimumWidth = 6;
             this.StudentId.Name = "StudentId";
@@ -311,6 +314,7 @@
             // 
             // Column1
             // 
+            this.Column1.DataPropertyName = "StudentName";
             this.Column1.HeaderText = "姓名";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -319,6 +323,7 @@
             // 
             // Column2
             // 
+            this.Column2.DataPropertyName = "Gender";
             this.Column2.HeaderText = "性别";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
@@ -327,6 +332,7 @@
             // 
             // Column3
             // 
+            this.Column3.DataPropertyName = "Birthday";
             this.Column3.HeaderText = "出生日期";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
@@ -336,6 +342,7 @@
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "ClassName";
             this.Column4.HeaderText = "所在班级";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
@@ -348,9 +355,9 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1464, 1045);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnsetting);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -372,17 +379,17 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxClass;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnsetting;
+        private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textID;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button6;

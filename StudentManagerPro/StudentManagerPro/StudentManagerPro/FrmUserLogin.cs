@@ -41,7 +41,7 @@ namespace StudentManagerPro
             string sql = "select count(1) from Admins where LoignID=@LoignID and LoignKey=@LoignKey";
 
             SqlParameter[] paraArray = { new SqlParameter("@LoignID", uID),
-                                             new SqlParameter("@LoignKey", uKey) };
+                                         new SqlParameter("@LoignKey", uKey) };
             //与数据库通讯，检查输入是否和数据库一致
             {
                 SQLHelper sqlHelper = new SQLHelper();
@@ -82,6 +82,7 @@ namespace StudentManagerPro
                     int count = (int)obj;
 
                     FrmUserLogin frmUserLogin = new FrmUserLogin();
+                    this.Hide();
                     frmUserLogin.Close();
                     FrmMain frmMain = new FrmMain();
                     frmMain.ShowDialog();

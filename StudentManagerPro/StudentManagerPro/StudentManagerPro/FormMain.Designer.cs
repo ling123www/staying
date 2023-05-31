@@ -86,7 +86,7 @@
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1452, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1452, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,7 +97,7 @@
             this.toolStripSeparator1,
             this.退出系统ToolStripMenuItem});
             this.系统ToolStripMenuItem.Name = "系统ToolStripMenuItem";
-            this.系统ToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
+            this.系统ToolStripMenuItem.Size = new System.Drawing.Size(72, 26);
             this.系统ToolStripMenuItem.Text = "系统(&S)";
             // 
             // tsmi_PwdModify
@@ -118,6 +118,7 @@
             this.退出系统ToolStripMenuItem.Name = "退出系统ToolStripMenuItem";
             this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.退出系统ToolStripMenuItem.Text = "退出系统";
+            this.退出系统ToolStripMenuItem.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
             // 
             // 学员管理ToolStripMenuItem
             // 
@@ -127,7 +128,7 @@
             this.toolStripSeparator2,
             this.学员管理系统ToolStripMenuItem});
             this.学员管理ToolStripMenuItem.Name = "学员管理ToolStripMenuItem";
-            this.学员管理ToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.学员管理ToolStripMenuItem.Size = new System.Drawing.Size(108, 26);
             this.学员管理ToolStripMenuItem.Text = "学生管理(&M)";
             // 
             // 添加学员AToolStripMenuItem
@@ -136,6 +137,7 @@
             this.添加学员AToolStripMenuItem.Name = "添加学员AToolStripMenuItem";
             this.添加学员AToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.添加学员AToolStripMenuItem.Text = "添加学生(&A)";
+            this.添加学员AToolStripMenuItem.Click += new System.EventHandler(this.添加学员AToolStripMenuItem_Click);
             // 
             // 批量导入学员ToolStripMenuItem
             // 
@@ -163,7 +165,7 @@
             this.toolStripSeparator3,
             this.成绩快速查询ToolStripMenuItem});
             this.成绩查询ToolStripMenuItem.Name = "成绩查询ToolStripMenuItem";
-            this.成绩查询ToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.成绩查询ToolStripMenuItem.Size = new System.Drawing.Size(99, 26);
             this.成绩查询ToolStripMenuItem.Text = "成绩查询(&J)";
             // 
             // 成绩查询与分析ToolStripMenuItem
@@ -191,7 +193,7 @@
             this.考勤打卡ToolStripMenuItem,
             this.考勤查询ToolStripMenuItem});
             this.考勤ToolStripMenuItem.Name = "考勤ToolStripMenuItem";
-            this.考勤ToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.考勤ToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
             this.考勤ToolStripMenuItem.Text = "考勤管理(&A)";
             // 
             // 考勤打卡ToolStripMenuItem
@@ -216,7 +218,7 @@
             this.toolStripSeparator4,
             this.关于我们ToolStripMenuItem});
             this.帮助HToolStripMenuItem.Name = "帮助HToolStripMenuItem";
-            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
             this.帮助HToolStripMenuItem.Text = "帮助(&H)";
             // 
             // 访问官网ToolStripMenuItem
@@ -251,7 +253,7 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 934);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 1029);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1452, 26);
             this.statusStrip1.TabIndex = 1;
@@ -274,7 +276,7 @@
             this.spContainer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.spContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.spContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.spContainer.Location = new System.Drawing.Point(0, 28);
+            this.spContainer.Location = new System.Drawing.Point(0, 30);
             this.spContainer.Name = "spContainer";
             // 
             // spContainer.Panel1
@@ -296,7 +298,7 @@
             this.spContainer.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("spContainer.Panel2.BackgroundImage")));
             this.spContainer.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.spContainer.Panel2.Controls.Add(this.label1);
-            this.spContainer.Size = new System.Drawing.Size(1452, 906);
+            this.spContainer.Size = new System.Drawing.Size(1452, 999);
             this.spContainer.SplitterDistance = 336;
             this.spContainer.TabIndex = 2;
             // 
@@ -486,7 +488,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1452, 960);
+            this.ClientSize = new System.Drawing.Size(1452, 1055);
             this.Controls.Add(this.spContainer);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);

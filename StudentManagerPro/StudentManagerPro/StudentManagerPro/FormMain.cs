@@ -70,5 +70,19 @@ namespace StudentManagerPro
             FrmUserLogin frmUserLogin = new FrmUserLogin();//引用登录页面类
             frmUserLogin.ShowDialog();//展示
         }
+
+        private void 添加学员AToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClosePreForm();//调用关闭窗体，避免连续点击按钮打开多个窗体
+            FrmAddStudent form = new FrmAddStudent();//引用添加学员窗口
+            OpenForm(form);//将这个参数传给窗体打开方法并调用
+        }
+
+        private void 退出系统ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();//隐藏页面
+            FrmUserLogin frmUserLogin = new FrmUserLogin();//引用登录页面类
+            frmUserLogin.ShowDialog();//展示
+        }
     }
 }

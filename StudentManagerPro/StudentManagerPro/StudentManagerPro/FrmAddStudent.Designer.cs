@@ -38,26 +38,26 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textPhone = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textID = new System.Windows.Forms.TextBox();
+            this.textIDcar = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboxClass = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.btnClose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -132,18 +132,18 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textPhone);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textID);
+            this.groupBox1.Controls.Add(this.textIDcar);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cboxClass);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textName);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label7);
@@ -156,12 +156,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[学生基本信息]";
             // 
-            // textBox4
+            // textPhone
             // 
-            this.textBox4.Location = new System.Drawing.Point(436, 224);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(417, 25);
-            this.textBox4.TabIndex = 11;
+            this.textPhone.Location = new System.Drawing.Point(436, 224);
+            this.textPhone.Name = "textPhone";
+            this.textPhone.Size = new System.Drawing.Size(417, 25);
+            this.textPhone.TabIndex = 11;
             // 
             // label8
             // 
@@ -179,19 +179,19 @@
             this.textBox5.Size = new System.Drawing.Size(192, 25);
             this.textBox5.TabIndex = 9;
             // 
-            // textBox3
+            // textID
             // 
-            this.textBox3.Location = new System.Drawing.Point(98, 224);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 25);
-            this.textBox3.TabIndex = 9;
+            this.textID.Location = new System.Drawing.Point(98, 224);
+            this.textID.Name = "textID";
+            this.textID.Size = new System.Drawing.Size(192, 25);
+            this.textID.TabIndex = 9;
             // 
-            // textBox2
+            // textIDcar
             // 
-            this.textBox2.Location = new System.Drawing.Point(436, 122);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(417, 25);
-            this.textBox2.TabIndex = 8;
+            this.textIDcar.Location = new System.Drawing.Point(436, 122);
+            this.textIDcar.Name = "textIDcar";
+            this.textIDcar.Size = new System.Drawing.Size(417, 25);
+            this.textIDcar.TabIndex = 8;
             // 
             // label6
             // 
@@ -202,13 +202,13 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "身份证号：";
             // 
-            // comboBox1
+            // cboxClass
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(98, 123);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(192, 23);
-            this.comboBox1.TabIndex = 6;
+            this.cboxClass.FormattingEnabled = true;
+            this.cboxClass.Location = new System.Drawing.Point(98, 123);
+            this.cboxClass.Name = "cboxClass";
+            this.cboxClass.Size = new System.Drawing.Size(192, 23);
+            this.cboxClass.TabIndex = 6;
             // 
             // dateTimePicker1
             // 
@@ -250,12 +250,12 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "性别";
             // 
-            // textBox1
+            // textName
             // 
-            this.textBox1.Location = new System.Drawing.Point(98, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 25);
-            this.textBox1.TabIndex = 1;
+            this.textName.Location = new System.Drawing.Point(98, 38);
+            this.textName.Name = "textName";
+            this.textName.Size = new System.Drawing.Size(192, 25);
+            this.textName.TabIndex = 1;
             // 
             // label4
             // 
@@ -314,20 +314,6 @@
             this.button5.Text = "确认添加";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.ImageIndex = 8;
-            this.btnClose.ImageList = this.imageList1;
-            this.btnClose.Location = new System.Drawing.Point(830, 40);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(120, 37);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.Text = "关闭窗口";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -350,6 +336,20 @@
             this.imageList1.Images.SetKeyName(15, "系统管理.png");
             this.imageList1.Images.SetKeyName(16, "用户管理.png");
             this.imageList1.Images.SetKeyName(17, "智慧分析.png");
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.ImageIndex = 8;
+            this.btnClose.ImageList = this.imageList1;
+            this.btnClose.Location = new System.Drawing.Point(830, 40);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(120, 37);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "关闭窗口";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // FrmAddStudent
             // 
@@ -388,18 +388,18 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textPhone;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textID;
+        private System.Windows.Forms.TextBox textIDcar;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboxClass;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
